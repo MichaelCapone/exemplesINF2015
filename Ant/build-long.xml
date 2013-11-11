@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- ====================================================================== 
 
    Copyright 2007 Jacques Berger
@@ -19,79 +19,80 @@
      description
                    
      ====================================================================== -->
+
 <project name="PerGen" default="default" basedir=".">
-    <description>
-            description
-    </description>
+  <description>
+          description
+  </description>
 
-    <property name="src" location="src" />
-    <property name="built" location="bin" />
+  <property name="src" location="src" />
+  <property name="built" location="bin" />
 
-    <path id="classpath">
-        <pathelement location="${basedir}/lib/junit-4.1.jar" />
-    </path>
+  <path id="classpath">
+    <pathelement location="${basedir}/lib/junit-4.1.jar" />
+  </path>
 
     <!-- ================================= 
           target: default              
          ================================= -->
-    <target name="default" depends="compile,checkstyle,unit-tests,javadoc" 
-    	description="--> description">        
-    </target>
+  <target name="default" depends="compile,checkstyle,unit-tests,javadoc" 
+    description="--> description">        
+  </target>
 
     <!-- - - - - - - - - - - - - - - - - - 
           target: compile
          - - - - - - - - - - - - - - - - - -->
-    <target name="compile">
-        <echo>Compiling sources...</echo>
-        <mkdir dir="${built}" />
-        <javac srcdir="${src}" destdir="${built}">
-            <classpath refid="classpath" />
-        </javac>
-    </target>
+  <target name="compile">
+    <echo>Compiling sources...</echo>
+    <mkdir dir="${built}" />
+    <javac srcdir="${src}" destdir="${built}">
+      <classpath refid="classpath" />
+    </javac>
+  </target>
 
     <!-- - - - - - - - - - - - - - - - - - 
           target: unit-tests                      
          - - - - - - - - - - - - - - - - - -->
-    <target name="unit-tests" depends="compile">
-        <echo>Launching unit tests...</echo>
-    	<delete dir="test_results" />
-    	<mkdir dir="test_results" />
-    	<junit printsummary="withOutAndErr">
-    		
-    		<formatter type="plain" />
-    		
-    		<batchtest fork="yes" todir="test_results">
-    		    <fileset dir="bin/tests">
-    		        <include name="**/*Test*.class"/>
-    		        <exclude name="**/AllTests.class"/>
-    		    </fileset>
-    		</batchtest>
+  <target name="unit-tests" depends="compile">
+    <echo>Launching unit tests...</echo>
+    <delete dir="test_results" />
+    <mkdir dir="test_results" />
+    <junit printsummary="withOutAndErr">
+      
+      <formatter type="plain" />
+      
+      <batchtest fork="yes" todir="test_results">
+        <fileset dir="bin/tests">
+          <include name="**/*Test*.class"/>
+          <exclude name="**/AllTests.class"/>
+        </fileset>
+      </batchtest>
 
-    	</junit>
-    </target>
-	
-	<!-- - - - - - - - - - - - - - - - - - 
-	      target: checkstyle
-	     - - - - - - - - - - - - - - - - - -->
-	<target name="checkstyle">
-		<echo>Style checking...</echo>
-		<taskdef resource="checkstyletask.properties" classpath="${basedir}/lib/checkstyle-all-4.3.jar" />
-		<checkstyle config="${basedir}/checkstyle.xml">
-			<fileset dir="${src}" />
-		</checkstyle>
-    </target>
-	
-	<!-- - - - - - - - - - - - - - - - - - 
-	      target: javadoc
-	     - - - - - - - - - - - - - - - - - -->
-	<target name="javadoc">
-	    <echo>Generating javadoc...</echo>
-		<delete dir="docs/api" />
-		<javadoc packagenames="*" sourcepath="src" destdir="docs/api"
-		         use="true" windowtitle="PerGen API">
-		    <doctitle><![CDATA[<h1>PerGen</h1>]]></doctitle>
-		    <bottom><![CDATA[<i>Copyright &#169; 2007 Jacques Berger All Rights Reserved.</i>]]></bottom>
-		</javadoc>		
-    </target>
+    </junit>
+  </target>
+  
+  <!-- - - - - - - - - - - - - - - - - - 
+        target: checkstyle
+       - - - - - - - - - - - - - - - - - -->
+  <target name="checkstyle">
+    <echo>Style checking...</echo>
+    <taskdef resource="checkstyletask.properties" classpath="${basedir}/lib/checkstyle-all-4.3.jar" />
+    <checkstyle config="${basedir}/checkstyle.xml">
+      <fileset dir="${src}" />
+    </checkstyle>
+  </target>
+  
+  <!-- - - - - - - - - - - - - - - - - - 
+        target: javadoc
+       - - - - - - - - - - - - - - - - - -->
+  <target name="javadoc">
+    <echo>Generating javadoc...</echo>
+    <delete dir="docs/api" />
+    <javadoc packagenames="*" sourcepath="src" destdir="docs/api"
+             use="true" windowtitle="PerGen API">
+      <doctitle><![CDATA[<h1>PerGen</h1>]]></doctitle>
+      <bottom><![CDATA[<i>Copyright &#169; 2007 Jacques Berger All Rights Reserved.</i>]]></bottom>
+    </javadoc>    
+  </target>
 
 </project>
