@@ -11,6 +11,12 @@ Markdown
 éléments de base de cette notation.
 
 
+DocBook
+-------
+
+[docbook](DocBook/introduction.xml) Un exemple d'un chapitre docbook qui
+illustre les éléments de base de cette notation.
+
 LaTeX
 -------
 
