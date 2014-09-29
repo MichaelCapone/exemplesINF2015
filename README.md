@@ -9,3 +9,9 @@ Markdown
 
 [markdown](Markdown/exemple.md) Un exemple de document markdown qui illustre les
 éléments de base de cette notation.
+
+
+LaTeX
+-------
+
+[latex](LaTeX/rapport.tex) Un exemple de rapport rédigé avec LaTeX.
