@@ -15,3 +15,19 @@ Exercices
 ---------
 
 1. Créer un projet 'Hello World' avec NetBeans et l'exécuter.
+
+2. Fermer le projet. Ouvrir à nouveau votre projet de 'Hello World' avec la
+   fonctionnalité d'ouverture de projet.
+
+3. Ajoutez un fichier texte à votre projet contenant une liste de vos livres
+   préférés (un titre par ligne).
+
+4. Ajoutez une classe à votre projet ayant la responsabilité de lire le fichier
+   texte et afficher son contenu à la console (un titre par ligne). Invoquez
+   cette nouvelle classe dans votre main.
+
+5. Créez un nouveau projet NetBeans. Téléchargez la librairie [https://commons.apache.org/proper/commons-io/download_io.cgi](Apache Commons IO)
+   et ajoutez le jar à votre projet. Ajoutez la classe
+   [Utf8File.java](Utf8File.java) (vous pouvez la modifier) et votre fichier
+   texte de l'exercice #3 à votre projet. Refaite l'exercice #4 en utilisant la
+   classe Utf8File.
