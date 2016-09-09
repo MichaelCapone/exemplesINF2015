@@ -23,7 +23,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             String content = Utf8File.loadFileIntoString("livres.txt");
-            System.out.println(content);
+            System.out.println(content.trim());
         } catch (IOException ex) {
             System.out.println("Erreur lors du chargement du fichier : " + ex.getLocalizedMessage());
         }
