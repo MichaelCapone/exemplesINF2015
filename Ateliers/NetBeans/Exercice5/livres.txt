@@ -1,0 +1,5 @@
+Clean Code
+Working Effectively With Legacy Code
+Refactoring
+Agile Software Development
+Un titre avec des caractères accentués
