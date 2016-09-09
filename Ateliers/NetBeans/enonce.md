@@ -11,4 +11,7 @@ Objectifs
 * Utiliser les fonctionnalités de base de NetBeans.
 * Ajouter un jar à un projet.
 
+Exercices
+---------
 
+1. Créer un projet 'Hello World' avec NetBeans et l'exécuter.
