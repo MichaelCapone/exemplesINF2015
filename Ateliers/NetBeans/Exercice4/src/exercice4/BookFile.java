@@ -31,6 +31,6 @@ public class BookFile {
         InputStreamReader inputReader = new InputStreamReader(inputStream, "UTF-8");
         inputReader.read(fullSizeBuffer);
         String content = new String(fullSizeBuffer);
-        System.out.println(content);
+        System.out.println(content.trim());
     }
 }
