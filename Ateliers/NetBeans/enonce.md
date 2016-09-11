@@ -2,7 +2,7 @@ Introduction à NetBeans
 =======================
 
 NetBeans est l'environnement de développement intégré à utiliser pour développer
-le projet de session. Ce laboratoire vise couvrir les fonctionnalités éléments
+le projet de session. Ce laboratoire à vise couvrir les fonctionnalités éléments
 de NetBeans.
 
 Objectifs
