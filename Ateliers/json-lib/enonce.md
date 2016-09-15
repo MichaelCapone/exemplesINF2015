@@ -32,4 +32,4 @@ Pour ces exercices, utilisez les jar disponibles dans ce
 <!-- Solutions -->
 <!-- --------- -->
 
-<!-- * [Exercices #1 et #2]() -->
+<!-- * [Exercices #1 et #2](Solutions/) -->
