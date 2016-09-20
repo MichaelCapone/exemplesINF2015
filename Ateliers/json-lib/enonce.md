@@ -29,7 +29,7 @@ Pour ces exercices, utilisez les jar disponibles dans ce
 2. Suivant la même modélisation, écrivez un programme Java qui écrira vos 3
    albums préférés dans un document JSON.
 
-<!-- Solutions -->
-<!-- --------- -->
+Solutions
+---------
 
-<!-- * [Exercices #1 et #2](Solutions/) -->
+* [Exercices #1 et #2](Solutions/)
