@@ -24,8 +24,8 @@ Exercices
    des messages de commit pertinents, c'est une bonne habitude à prendre tôt.
 3. Faire un clone d'un projet existant, y faire des modifications et publier les
    modifications (push).
-3. Partagez un dépôt avec un collègue de classe. Faites plusieurs modifications
+4. Partagez un dépôt avec un collègue de classe. Faites plusieurs modifications
    chacun ainsi que les pull et push nécessaires pour voir le travail de
    l'autre.
-4. Provoquez un conflit et réglez le conflit.
-5. Faites un changement dans le code et annulez la modification (revert).
+5. Provoquez un conflit et réglez le conflit.
+6. Faites un changement dans le code et annulez la modification (revert).
