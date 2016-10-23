@@ -1,4 +1,4 @@
-Git (UI)
+Git (shell)
 ========
 
 Dans cet atelier, vous serez initié à l'utilisation de git à la ligne de
