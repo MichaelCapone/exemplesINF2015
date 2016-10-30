@@ -40,6 +40,7 @@ Exercices
    * soustraire un montant d'une valeur monétaire.
 
    Rédigez des tests unitaires pour toutes ces fonctions.
+
    Note : Le démonstrateur ne fournira pas de solution pour cet exercice.
 
 <!-- Solutions -->
