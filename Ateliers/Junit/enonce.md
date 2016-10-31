@@ -18,7 +18,7 @@ Exercices
    de vente en vigueur sur un sous-total. La méthode reçoit 3 paramètres :
    * un `long` représentant un montant en sous; par exemple 100.00$ sera
      représenté comme un entier valant 10000;
-   * un `boolean` indiquant si l'on doit appliquer la taxe fédéral de 5%;
+   * un `boolean` indiquant si l'on doit appliquer la taxe fédérale de 5%;
    * un `boolean` indiquant si l'on doit appliquer la taxe provinciale de
      9.975%.
    La méthode retourne un `long` représentant le montant total, incluant les
@@ -39,7 +39,7 @@ Exercices
    * convertir la valeur monétaire en chaîne de caractères;
    * soustraire un montant d'une valeur monétaire.
 
-   Rédigez des tests unitaires pour toutes ces fonctions.
+   Rédigez des tests unitaires pour toutes ces méthodes.
 
    Note : Le démonstrateur ne fournira pas de solution pour cet exercice.
 
