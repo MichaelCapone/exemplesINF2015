@@ -1,4 +1,4 @@
-public final class IdentifierTransformer {
+public final class IdentifierTransformation {
 
     public static String snakeCaseIdentifierToPascalCase(String identifier) {
         char[] workString = snakeCaseIdentifierToCamelCase(identifier).toCharArray();
