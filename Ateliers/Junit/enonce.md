@@ -43,7 +43,7 @@ Exercices
 
    Note : Le démonstrateur ne fournira pas de solution pour cet exercice.
 
-<!-- Solutions -->
-<!-- --------- -->
+Solutions
+---------
 
-<!-- * [Exercices #1 et #2](Solutions/) -->
+* [Exercices #1 et #2](Solutions/)
