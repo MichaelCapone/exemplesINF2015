@@ -13,10 +13,10 @@ Exercices
 ---------
 
 Les solutions des exercices ne seront par fournies. Néanmoins, vous trouverez
-des exemples identiques dans le code du projet [PerGen][https://github.com/jacquesberger/PerGen].
+des exemples identiques dans le code du projet [PerGen](https://github.com/jacquesberger/PerGen).
 
 Créez un projet NetBeans et placez-y la classe
-[JavaGenerator][JavaGenerator.java].
+[JavaGenerator](JavaGenerator.java).
 
 1. Créez un _wrapper_ sur la classe `FileWriter` et remplacez toutes les
    utilisations du `FileWriter` par le _wrapper_.
