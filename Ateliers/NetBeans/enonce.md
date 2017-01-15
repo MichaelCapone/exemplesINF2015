@@ -14,9 +14,9 @@ Objectifs
 Exercices
 ---------
 
-1. Créer un projet 'Hello World' avec NetBeans et l'exécuter.
+1. Créez un projet 'Hello World' avec NetBeans et l'exécuter.
 
-2. Fermer le projet. Ouvrir à nouveau votre projet de 'Hello World' avec la
+2. Fermez le projet. Ouvrez à nouveau votre projet de 'Hello World' avec la
    fonctionnalité d'ouverture de projet.
 
 3. Ajoutez un fichier texte à votre projet contenant une liste de vos livres
