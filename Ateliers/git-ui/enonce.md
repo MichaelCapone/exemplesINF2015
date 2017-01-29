@@ -3,8 +3,8 @@ Git (UI)
 
 Dans cet atelier, vous serez initié à l'utilisation de git avec le plugin de
 NetBeans. Aucune solution ne sera fournie pour les exercices mais les
-manipulations nécessaires à leur réalisation seront présentées par les moniteurs
-durant l'atelier.
+manipulations nécessaires à leur réalisation seront présentées par les
+monitrices durant l'atelier.
 
 Vous devez avoir un compte [GitHub](https://github.com/) pour réaliser cet
 atelier.
