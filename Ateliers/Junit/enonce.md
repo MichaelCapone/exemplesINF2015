@@ -41,7 +41,7 @@ Exercices
 
    Rédigez des tests unitaires pour toutes ces méthodes.
 
-   Note : Le démonstrateur ne fournira pas de solution pour cet exercice.
+   Note : La monitrice ne fournira pas de solution pour cet exercice.
 
 Solutions
 ---------
