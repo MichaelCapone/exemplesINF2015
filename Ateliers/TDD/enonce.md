@@ -5,10 +5,10 @@ Le TDD est une méthode de rédaction de code source où la rédaction des tests
 unitaires est faite juste avant la rédaction du code source.
 
 La méthode :
-1. Rédiger un test unitaire pour une fonctionnalité qui n'existe pas.
-2. Faire une implémentation dans le but de faire compiler le test et de le faire échouer.
-3. Rédiger une première vraie implémentation de la fonctionnalité, sans se préoccuper de la qualité du code ou du design.
-4. Faire du refactoring jusqu'à l'obtention d'un design satisfaisant.
+1) Rédiger un test unitaire pour une fonctionnalité qui n'existe pas.
+2) Faire une implémentation dans le but de faire compiler le test et de le faire échouer.
+3) Rédiger une première vraie implémentation de la fonctionnalité, sans se préoccuper de la qualité du code ou du design.
+4) Faire du refactoring jusqu'à l'obtention d'un design satisfaisant.
 
 Aucune solution ne sera fournie pour cet atelier. Dans ce cas-ci, c'est la
 méthode qui est plus importante que les solutions.
