@@ -4,8 +4,8 @@ Maven
 Maven est un outil de _build_ très connu dans l'univers du développement Java.
 Il propose une structure de projet et une gestion des dépendances plutôt
 intéressantes. Aucune solution ne sera fournie pour les exercices mais les
-manipulations nécessaires à leur réalisation seront présentées par les moniteurs
-durant l'atelier.
+manipulations nécessaires à leur réalisation seront présentées par les
+monitrices durant l'atelier.
 
 Objectifs
 ---------
